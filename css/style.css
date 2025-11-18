@@ -36,8 +36,9 @@ body {
 }
 
 .card {
-    padding: 15px;
+    padding: 10px;
     background-color: whitesmoke;
+    position: relative;
 }
 
 /* FLEX */
@@ -88,3 +89,12 @@ header {
 main {
     padding-top: 80px;
 }
+
+.pin {
+    position: absolute;
+    right: 50%;
+    top: 0;
+    left: 50%;
+    width: 30px;
+}
+

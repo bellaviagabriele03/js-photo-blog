@@ -48,11 +48,11 @@ Buon Lavoro e buon divertimento!
     - [x] struttura css
     - [x] responsive 
 
-- [ ] ragionamento per lo script 
-    - [ ] prelevare elementi dal dom
-    - [ ] effetuare la chiamata all'API 
-    - [ ] prelevare dati dall' API 
-    - [ ] creare card dinamicamente (di base)
-    - [ ] stampare le card in pagina con i dati dall'API
+- [x] ragionamento per lo script 
+    - [x] prelevare elementi dal dom
+    - [x] effetuare la chiamata all'API 
+    - [x] prelevare dati dall' API 
+    - [x] creare card dinamicamente (di base)
+    - [x] stampare le card in pagina con i dati dall'API
 
-- [ ] stilizzare i contenuti (colori, immagini di sfondo, ecc...)
+- [x] stilizzare i contenuti (colori, immagini di sfondo, ecc...)

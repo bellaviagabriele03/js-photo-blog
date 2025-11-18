@@ -2,7 +2,7 @@
 @media screen and (min-width: 425px) {
 
     .row .col {
-        width: calc(100% / 2 - 40px / 2);
+        width: calc(100% / 2 - 20px / 2);
     }
 
     .container {
