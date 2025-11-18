@@ -5,13 +5,18 @@
     box-sizing: border-box;
 }
 
+
 img {
     max-width: 100%;
 }
 
-/* COMMON */
+/***********
+**COMMON 
+************/
+
 
 /* TYPOGRAPHY */
+
 
 /* LAYOUT */
 .container {
@@ -20,9 +25,13 @@ img {
     margin: 0 auto;
 }
 
+/* FLEX */
+
 
 /* UTILITIES */
 
+
 /* HEADER */
+
 
 /* MAIN */

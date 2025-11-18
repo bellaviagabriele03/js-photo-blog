@@ -45,7 +45,7 @@ Buon Lavoro e buon divertimento!
 - [ ] Creare struttura/layout di base solo con html e css:
     - [ ] header
     - [ ] main 
-    - [ ] struttura css
+    - [x] struttura css
     - [ ] responsive 
 
 - [ ] ragionamento per lo script 
