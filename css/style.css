@@ -1,10 +1,25 @@
 /* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
 
 /* COMMON */
 
 /* TYPOGRAPHY */
 
 /* LAYOUT */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 
 /* UTILITIES */
 
