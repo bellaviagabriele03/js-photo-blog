@@ -25,8 +25,30 @@ img {
     margin: 0 auto;
 }
 
-/* FLEX */
 
+.col {
+    width: 100%;
+}
+
+/* FLEX */
+.row {
+    display: flex;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.g-20 {
+    gap: 20px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
 
 /* UTILITIES */
 
