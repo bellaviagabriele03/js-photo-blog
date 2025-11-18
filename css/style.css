@@ -66,6 +66,10 @@ body {
     text-align: center;
 }
 
+.sub-title {
+    color: gray;
+}
+
 /* HEADER */
 header {
     position: fixed;
