@@ -19,4 +19,12 @@
     .row .col {
         width: calc(100% / 3 - 40px / 2);
     }
+
+    .card:hover .pin{
+        display: none;
+    }
+
+    .card:hover {
+        transform: rotate(20deg);
+    }
 }
