@@ -16,7 +16,7 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/").then(function (resp) 
                     <img class="pin" src="./img/pin.svg" alt="">
                     <img class="main-img" src="${elem.url}" alt="">
                     <span class="sub-title">${elem.date}</span>
-                    <h3 class="card-title">${elem.title.toUpperCase()}</h3>
+                    <h3 class="card-title">${elem.title}</h3>
                 </div>
             </div>
         `
