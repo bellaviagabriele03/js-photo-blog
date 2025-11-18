@@ -5,6 +5,12 @@
         width: calc(100% / 2 - 40px / 2);
     }
 
+    .container {
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
 }
 
 

@@ -8,6 +8,7 @@
 
 img {
     max-width: 100%;
+    margin-bottom: 10px;
 }
 
 /***********
@@ -17,22 +18,32 @@ img {
 
 /* TYPOGRAPHY */
 
+body {
+    font-family: sans-serif;
+    background-image: url(../img/cork.png);
+}
+
 
 /* LAYOUT */
 .container {
-    width: 90%;
+    width: 65%;
     max-width: 1000px;
     margin: 0 auto;
 }
-
 
 .col {
     width: 100%;
 }
 
+.card {
+    padding: 15px;
+    background-color: whitesmoke;
+}
+
 /* FLEX */
 .row {
     display: flex;
+    margin-top: 30px;
 }
 .justify-content-between {
     justify-content: space-between;
@@ -51,11 +62,12 @@ img {
 }
 
 /* UTILITIES */
-
+.text-center {
+    text-align: center;
+}
 
 /* HEADER */
 header {
-    text-align: center;
     position: fixed;
     z-index: 10000;
     right: 0;

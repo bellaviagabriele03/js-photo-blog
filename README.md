@@ -42,11 +42,11 @@ Buon Lavoro e buon divertimento!
 
 ## TODO :
 
-- [ ] Creare struttura/layout di base solo con html e css:
-    - [ ] header
-    - [ ] main 
+- [x] Creare struttura/layout di base solo con html e css:
+    - [x] header
+    - [x] main 
     - [x] struttura css
-    - [ ] responsive 
+    - [x] responsive 
 
 - [ ] ragionamento per lo script 
     - [ ] prelevare elementi dal dom
