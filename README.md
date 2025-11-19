@@ -56,3 +56,16 @@ Buon Lavoro e buon divertimento!
     - [x] stampare le card in pagina con i dati dall'API
 
 - [x] stilizzare i contenuti (colori, immagini di sfondo, ecc...)
+
+
+## - [] Bonus
+    - [ ] creare hoverlay: 
+        al click su una foto viene mostrata l'immagine corrispettiva come un alert (al centro della pagina)
+        insieme ad un bottone per chiudere l'immagine e poter eventualmente cliccare su un'altra immagine 
+# Scaletta lavoro
+-[] creare la struttura di base su html e css (tag da utilizzare nel html e le classi css)
+-[] prelevare gli elementi dal DOM 
+-[] test sullo script per visualizzare in console l'elemento corrispondente cliccato
+-[] stampare in pagina l'immagine corrispettiva
+        
+        
