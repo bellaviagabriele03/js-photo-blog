@@ -126,6 +126,19 @@ main {
     background: rgba(0, 0, 0, 0.5)
     
 }
+.cur-img {
+    
+}
+
+.btn {
+    background-color: blue;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
 
 
 .d-none {

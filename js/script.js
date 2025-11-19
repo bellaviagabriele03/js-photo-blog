@@ -2,11 +2,11 @@
 // console.log("ciao");
 
 
-function createCard(array){
+function createCard(array) {
     const docElem = document.createElement("div")
     docElem.classList.add("row", "justify-content-between", "g-20", "wrap")
     let contentString = "";
-    array.forEach(function(elem){
+    array.forEach(function (elem) {
         contentString += `
         <div class = "col">
             <div class="card">
@@ -17,13 +17,13 @@ function createCard(array){
             </div>
         </div>
         `;
-        
-        
+
+
     })
     docElem.innerHTML = contentString;
     mainElem.appendChild(docElem);
     return docElem;
-    
+
 }
 
 
@@ -37,11 +37,27 @@ function createCard(array){
 //elemti prelevati dal DOM
 const mainElem = document.querySelector("#content")
 const overlayElem = document.querySelector("#overlay")
+const btnClose = document.querySelector("#btn")
+const bigImgElem = document.querySelector("#bigImg")
 
 axios.get("https://lanciweb.github.io/demo/api/pictures/").then(function (resp) {
     const dataArray = resp.data;
     createCard(dataArray)
+    const cardElem = document.querySelectorAll(".card")
+    cardElem.forEach(function (elem) {
+
+        elem.addEventListener("click", function(){
+            overlayElem.classList.remove("d-none")
+            
+            
+            
+        })
+    })
 
 })
 
+
+btnClose.addEventListener("click", function(){
+    overlayElem.classList.add("d-none");
+})
 
