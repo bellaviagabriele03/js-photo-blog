@@ -29,6 +29,16 @@ function createCard(array) {
 }
 
 
+function builder(tag, classi, text, htmlInside, Where){
+    let classList = [];
+    classList.push(classi);
+    let element = document.createElement(tag);
+    element.classList.add(classList);
+    element.innerText = text;
+    element.innerHTML = htmlInside;
+    Where.appendChild(element);
+}   
+
 
 
 
