@@ -21,7 +21,7 @@ function createCard(array) {
         </div>
         `;
     })
-    
+
     docElem.innerHTML = contentString;
     mainElem.appendChild(docElem);
     return docElem;
@@ -87,16 +87,18 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/").then(function (resp) 
 
             //qui creo l'immagine che aggiungo al div con la classe "cur-img"
             const bigImg = document.createElement("img")
-            bigImg.src = 
+
+                    //getAttribute setAttribute ????? 
+
+            bigImg.src = //??????????
 
 
-
-            
             // aggiungo gli elementi sopra creati in un unico DIV ("overlayDiv")
             div.appendChild(btnClose)
             div.appendChild(bigImg)
             overlayDiv.appendChild(div)
 
+            
             //ed infine lo aggiungo all'elemento che ho preso dal mio index ("overlayElem")
             overlayElem.appendChild(overlayDiv)
 
