@@ -36,6 +36,9 @@ function createCard(array) {
 
 
 
+
+
+
 //elemti prelevati dal DOM
 const mainElem = document.querySelector("#content-card")
 const overlayElem = document.querySelector("#content-overlay")
@@ -47,9 +50,8 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/").then(function (resp) 
     //invocazione della funzione per creare le card
     createCard(dataArray)
 
-    //prelevo gli elementi che ho creato e aggiunto al DOM tramite la mia funzione 
+    //prelevo gli elementi che ho creato e li  aggiungo al DOM tramite la mia funzione 
     const cardElem = document.querySelectorAll(".card")
-    const imgCardElem = document.querySelectorAll(".main-img")
             //il querySelectorAll di per se mi prende tuttti gli elementi di cui ho bisogno 
             // e me li salva in un ARRAY 
                     // debug :
@@ -90,7 +92,12 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/").then(function (resp) 
 
                     //getAttribute setAttribute ????? 
 
-            bigImg.src = //??????????
+                   
+            //prelevo l'immagine della carta corrente, essendo già dentro il forEach ho la mia variabile "curCard"
+                    // che prende ogni elemento corrente del mio array "cardElem"
+            const imgCard = curCard.querySelector(".main-img")
+            
+            bigImg.src = imgCard.src;
 
 
             // aggiungo gli elementi sopra creati in un unico DIV ("overlayDiv")
