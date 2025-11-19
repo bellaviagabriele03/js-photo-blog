@@ -8,7 +8,6 @@
 
 img {
     max-width: 100%;
-    margin-bottom: 10px;
 }
 
 /***********
@@ -51,6 +50,10 @@ body {
     justify-content: space-between;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 .align-items-center {
     align-items: center;
 }
@@ -66,6 +69,11 @@ body {
 /* UTILITIES */
 .text-center {
     text-align: center;
+}
+
+
+.d-none {
+    display: none;
 }
 
 .sub-title {
@@ -102,4 +110,24 @@ main {
     top: 0;
     left: 50%;
     width: 30px;
+}
+
+
+.overlay {
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5)
+    
+}
+
+
+.d-none {
+    display: none;
 }
